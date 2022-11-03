@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Permanent+Marker&display=swap');
+
+:root{
+    --font1:Verdana, Geneva, Tahoma, sans-serif;
+    --font2:'Didact Gothic', sans-serif;
+    --font3: 'Permanent Marker';
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body { 
+    background-color: gray;
+    min-height: 100vh;
+    font-family: var(--font1);
+       
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--font3);
+    font-size: 2.5vw;
+    
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+}
+
+section.imagem{
+    background-color: rgba(128, 128, 128, 0.516);
+    color: white;
+    box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.305);
+    background-attachment: fixed;
+
+}
+
+section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.544);
+    display: inline-block;
+    padding: 10px;
+    text-shadow: 1px 1px 1px black;
+}
+section > p{
+    background-color: white;
+    padding-bottom: 2em;
+    
+}
+
+section#img01{
+    background-image: url(imagens/background001.jpg);
+    background-position: right, center;
+    background-size: cover;
+     
+}
+
+section#img02{
+    background-image: url(imagens/background002.jpg);
+    background-position: right, center;
+    background-size: cover;
+
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+header > img {
+    padding-top: 10px;
+    height: 20vh;   
+    
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;    
+    font-family: var(--font2);
+    font-size: 3.5em;
+    margin-top: -20px;
+}
+
+header > p {
+    padding-bottom: 50px;
+
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-style: italic;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
